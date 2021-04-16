@@ -2,37 +2,37 @@
 	"name": "seatreminder",
 	"displayName": "seat reminder",
 	"description": "sedentary reminder, get out of your seat and exercise.",
-	"version": "0.0.2",
-    "publisher": "kanbang",
+	"version": "0.0.5",
+	"publisher": "kanbang",
+	"icon": "logo.png",
 	"engines": {
 		"vscode": "^1.46.0"
 	},
 	"categories": [
 		"Other"
 	],
-    "keywords": [
-        "久坐提醒",
-        "健康提醒",
-        "运动提醒",
-        "seat",
-        "reminder"
-    ],
+	"keywords": [
+		"久坐提醒",
+		"健康提醒",
+		"运动提醒",
+		"seat",
+		"reminder"
+	],
 	"bugs": {
-        "url": "https://github.com/kanbang/seat-reminder/issues",
-        "email": "kanbang@msn.com"
-    },
-    "homepage": "https://github.com/kanbang/seat-reminder/blob/master/README.md",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/kanbang/seat-reminder.git"
-    },
+		"url": "https://github.com/kanbang/seat-reminder/issues",
+		"email": "kanbang@msn.com"
+	},
+	"homepage": "https://github.com/kanbang/seat-reminder/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kanbang/seat-reminder.git"
+	},
 	"activationEvents": [
 		"*"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
-		"commands": [
-			{
+		"commands": [{
 				"command": "kk.electron.validate",
 				"title": "electron version evalidate"
 			},
@@ -52,7 +52,7 @@
 				"command": "kk.seat.set_minutes",
 				"title": "set remind minutes"
 			}
-			
+
 		],
 		"configuration": {
 			"type": "object",
